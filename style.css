@@ -1,0 +1,339 @@
+.body {
+    width: 100%;
+}
+.global-nav {
+    display: flex;
+}
+nav li {
+    display: inline-block;
+    line-height: 3em;
+    font-size: 23px;
+    color: #808080;
+}
+h1 {
+    font-weight: normal;
+    color: #808080;
+}
+.mgr-100 {
+    margin-right: 100px;
+}
+.mgr-400 {
+    margin-right: 400px;
+}
+.mgr-30 {
+    margin-right: 30px;
+}
+
+.image1 {
+    width: 1430px;
+    height: 620px;
+}
+.image1 img {
+    width: 100%;
+    height: 100%;
+}
+.hero {
+    position: relative;
+}
+.hero-text {
+    position: absolute;
+    bottom: 230px;
+    left: 400px;
+    text-align: center;
+    color:#ffffff;
+    font-size: 250%;
+    font-weight: normal;
+}
+
+h3 {
+    padding-top: 100px;
+    font-weight: normal;
+    text-align: center;
+    font-size: 180%;
+    line-height: 1.2em;
+    color: #808080;
+}
+h4 {
+    font-size: 230%;
+    color: #808080;
+}
+p {
+    color: #808080;
+}
+.vision-images {
+    position: relative;
+    bottom: 180px;
+    left: 610px;
+    width: 720px;
+    height: 380px;
+}
+.vision-images img{
+    width: 100%;
+    height: 100%;
+}
+.vision-texts {
+    line-height: 0.1em;
+}
+.vision-texts h4 {
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+p.text1{
+    position: relative;
+    font-size: 180%;
+    left: 100px;
+    top: 60px;
+    line-height: 1.8em;
+}
+.vision-texts a {
+    position: relative;
+    top: 200px;
+    left: 100px;
+    font-size: 150%;
+    background-color: #000000;
+    border: solid 1px;
+    padding: 25px 80px;
+    color: #fff;
+}
+.message-texts h4 {
+    position: relative;
+    text-align: center;
+    bottom: 70px;
+}
+p.text2 {
+    position: relative;
+    bottom: 100px;
+    font-size: 180%;
+    text-align: center;
+}
+.about-images {
+    display: flex;
+    flex-wrap: wrap; 
+}
+.about-images p {
+    position: relative;
+    left: 110px;
+    width: 400px;
+    height: 300px;
+    padding:0 5px;
+    box-sizing: border-box;
+}
+.about-images p img {
+    width: 100%;
+    height: 100%;
+}
+.service {
+    background-color: #F2F2F2;
+    position: relative;
+    top: 70px;
+    height: 1500px;
+}
+ h5 {
+     position: relative;
+     top: 100px;
+     text-align: center;
+     color: #808080;
+     font-weight: normal;
+     font-size: 250%;
+     line-height: 1.2em;
+}
+.service h5 small {
+    font-size: 60%;
+}
+.service-item1 {
+    display: inline-block;
+    background-color: #fff;
+    position: relative;
+    left: 100px;
+    top: 70px;
+    width: 600px;
+    height: 600px;
+    margin: 0 5px;
+}
+.service-icon1 {
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    left: 220px;
+    background-color: #000000;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.service-item1 h4 {
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+.service-item1 p {
+    font-size: 180%;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    line-height: 1.8em;
+}
+.service-item1 a {
+    position: relative;
+    top: 80px;
+    left: 120px;
+    font-size: 150%;
+    background-color: #000000;
+    border: solid 1px;
+    padding: 25px 80px;
+    color: #fff;
+}
+.service-item2 {
+    display: inline-block;
+    background-color: #fff;
+    position: relative;
+    left: 100px;
+    top: 90px;
+    width: 400px;
+    height: 500px;
+    margin: 0 2px;
+}
+.service-item2 h4 {
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.service-item2 p {
+    text-align: center;
+    font-size: 150%;
+    position: relative;
+    top: 10px;
+    line-height: 1.8em;
+}
+.service-item2 a {
+    font-size: 150%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: #000000;
+    border: solid 1px;
+    padding: 20px 80px;
+    color: #fff;
+}
+.service-icon2 {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 130px;
+    background-color: #000000;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.access h5 {
+    line-height: 0.8em;
+}
+.access h5 small {
+    font-size: 25px;
+}
+.access-map {
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+.access-address {
+    position: relative;
+    top: 70px;
+    left: 100px;
+    font-size: 30px;
+}
+.contact {
+    background-color: #F2F2F2;
+    position: relative;
+    top: 120px;
+    left: 110px;
+    width: 1200px;
+    height: 650px;
+}
+.contact h5 {
+    line-height: 0.8em;
+}
+.contact h5 small {
+    font-size: 25px;
+}
+.contact-tel {
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    background-color: #C0C0C0;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+.contact-button-container {
+    color: #fff;
+}
+.tel-hedding { 
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+}
+.telno {
+    position: relative;
+    top: 20px;
+    font-size: 50px;
+}
+.contact a small {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+.contact2 {
+    display: inline-block;
+    position: relative;
+    top: 52px;
+    left: 105px;
+    background-color: #C0C0C0;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+}
+.contact-form {
+    position: relative;
+    top: 70px;
+    left: 40px;
+    font-size: 40px;
+}
+footer {
+    background-color: #333333;
+    height: 350px;
+    position: relative;
+    top: 280px;
+}
+footer h2 {
+    color: #808080;
+    text-align: center;
+    font-weight: normal;
+    font-size: 35px;
+    position: relative;
+    top: 50px;
+}
+footer li {
+    margin-right: 20px;
+    font-size: 20px;
+}
+footer nav {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.copyright {
+    text-align: center;
+    position: relative;
+    top: 130px;
+    font-size: 20px;
+}
+
+
+
+
+
+  
