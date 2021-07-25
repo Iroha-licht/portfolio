@@ -1,3 +1,5 @@
+
+
 const photo1src = 'url("./img/photo1.png")';
 const photo2src = 'url("./img/photo2.png")';
 const photo3src = 'url("./img/photo3.png")';
@@ -79,3 +81,14 @@ $(function() {
  
   });
 });
+/*
+<header id="top">
+        <h1 class="title">制作実績<br>ギャラリー</h1>
+        <nav class="slider-controller">
+          <ul>
+            <li><a id="sc-to-left">←</a></li>
+            <li><a id="sc-to-right">→</a></li>
+          </ul>
+        </nav>
+    </header>
+*/

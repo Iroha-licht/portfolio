@@ -1,3 +1,117 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+:root {
+    --primary-050: #ff95d3; /* サンプル */
+    --secondary-050: #ffffff81; /* サンプル */
+    --dark-087: rgba(0,0,0,0.87);
+    --dark-054: rgba(0,0,0,0.54);
+    --dark-026: rgba(0,0,0,0.26);
+    --dark-012: rgba(0,0,0,0.12);
+    --light-100: rgba(255,255,255,1.00);
+    --light-070: rgba(255,255,255,0.70);
+    --light-030: rgba(255,255,255,0.30);
+    --light-012: rgba(255,255,255,0.12);
+    --gray-010: #f1f1f1;
+    --gray-020: #e4e4e4;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    font-feature-settings: "palt";
+    font-size: 16pt;
+}
+
+.global-nav h1 {
+    font-size: 1.5rem;
+    font-family: 'arial black', cursive;
+    margin-left: 1rem;
+
+    color: var(--primary-050);
+    text-shadow: 1px 1px 0 var(--dark-026);
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+section:nth-child(2n + 1) {
+    background-color: var(--primary-050);
+    color: var(--secondary-050);
+}
+
+.global-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #fff;
+
+    box-shadow: 0 2px 1rem var(--dark-026);
+}
+
+.global-nav .menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.global-nav .menu ul a {
+    color: var(--primary-050);
+    text-decoration: none;
+
+    display: inline-block;
+    line-height: 1;
+    font-size: 1.125rem;
+    padding: calc(1.25rem - 4px) 2rem;
+
+    transition: color,background-color 0.3s;
+
+    border-right: 1px solid var(--dark-012);
+    border-top: 4px solid transparent; 
+    border-bottom: 4px solid transparent; 
+}
+.global-nav .menu ul li:last-child a {
+    border-right: none;
+}
+
+.global-nav .menu ul a:hover {
+    background-color: var(--primary-050);
+    color: var(--secondary-050);
+    border-bottom: 4px solid var(--secondary-050);
+}
+
+
+ul.horizontal-list {
+    overflow-x: auto;
+    white-space: nowrap;
+   }
+   li.item {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    font-size: 48px;
+    color: #fff;
+    background-color: #ff5a5f;
+    text-align: center;
+   }
+
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +126,7 @@
     font-size: 14pt;
   }
   header, footer {
-    background: #000;
+    background: rgb(0, 0, 0);
     color: #fff;
   }
 header {
@@ -115,7 +229,7 @@ footer {
     padding-bottom: 120px;
   }
   .thumbnail {
-    display: inline;
+    display: inline-block;
     height: 80px;
     margin-right: 15px;
     margin-left: 15px;
@@ -123,3 +237,4 @@ footer {
   .thumbnail img {
     height: 100%;
 }
+
